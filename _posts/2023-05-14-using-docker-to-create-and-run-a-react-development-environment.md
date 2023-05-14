@@ -216,6 +216,6 @@ Visit `http://localhost:3000` and verify that the default React page is shown:
 
 Now, make an update to `src/App.js` and verify that the development server automatically captures the change:
 
-![changed react page](/assets/images/changes_react_page.JPG)
+![changed react page](/assets/images/changed_react_page.JPG)
 
 Congrats, you have now successfully set up a React development environment without installing any `node` dependencies directly to your system. Hope you enjoyed!
