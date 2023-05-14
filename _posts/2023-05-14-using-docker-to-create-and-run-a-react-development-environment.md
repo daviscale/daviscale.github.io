@@ -1,7 +1,9 @@
+---
 layout: post
 title: "Using Docker to Create and Run a React Development Environment"
 date: 2023-05-14 12:00:00 -0000
 categories: react docker
+---
 
 ## Using Docker to Create and Run a React Development Environment
 
