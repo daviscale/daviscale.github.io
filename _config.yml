@@ -24,7 +24,7 @@ url: "https://daviscale.github.io" # the base hostname & protocol for your site,
 domain: daviscale.github.io
 
 # Build settings
-theme: minima
+theme: modernist 
 plugins:
   - jekyll-feed
 
