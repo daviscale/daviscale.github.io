@@ -4,15 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is the software engineering blog of Cale Davis. I wrote my first website in 1998 back when WYSIWYG tools were all the rage. I have written Scala, Java, and Ruby professionally. Outside work, I'm exploring React and Flutter as I have time.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- [LinkedIn](https://www.linkedin.com/in/caledavis/)
+- [GitHub](https://github.com/daviscale)
