@@ -5,11 +5,9 @@ date: 2023-05-14 12:00:00 -0000
 categories: react docker
 ---
 
-## Using Docker to Create and Run a React Development Environment
+Managing different versions of SDKs used to frustrate me. Each language has its own version management tool. Ruby has  `RVM` or `rbenv`, Python uses `pyenv` or `virtualenv`, Java has `SDKMAN`, and so on. Once I started using Docker, I realized that I no longer needed to manage language versions directly on my development workstation. I now strive to install all my development dependencies in Docker containers.
 
-As a software engineer, managing different versions of SDKs used to frustrate me. Each language has its own version management tool. Ruby has  `RVM` or `rbenv`, Python uses `pyenv` or `virtualenv`, Java has `SDKMAN`, and so on. Once I started using Docker, I realized that I no longer needed to manage language versions directly on my development workstation. I now strive to install all my development dependencies in docker containers.
-
-However, it may not always be straightforward to bootstrap a new project with Docker. This article explains how to create and run a new react project inside docker containers. I run Ubuntu via the Windows Subsystem for Linux (WSL) and Docker Desktop. For reference, here's my verion numbers:
+However, it may not always be straightforward to bootstrap a new project with Docker. This article explains how to create and run a new React project inside docker containers. I run Ubuntu via the Windows Subsystem for Linux (WSL) and Docker Desktop. For reference, here are my version numbers:
 
 - Windows version 10.0.19044.2965
 - Ubuntu 22.04.2 via WSL version 1.2.5.0
@@ -17,9 +15,9 @@ However, it may not always be straightforward to bootstrap a new project with Do
 
 ## Creating a react app inside a docker container
 
-Our first goal is to create a new React app by running `create-react-app` inside a docker container. Here's a docker command to start a shell session on a `node` container:
+Our first goal is to create a new React app by running `create-react-app` inside a Docker container. Here's a Docker command to start a shell session on a `node` container:
 
-```
+```bash
 docker run --rm -v $(pwd):$(pwd) -w $(pwd) -it --user "$(id -u):$(id -g)" node:18-alpine sh
 ```
 
