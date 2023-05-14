@@ -24,9 +24,7 @@ url: "https://daviscale.github.io" # the base hostname & protocol for your site,
 domain: daviscale.github.io
 
 # Build settings
-remote_theme: pages-themes/modernist@v0.2.0
-plugins:
-- jekyll-remote-theme
+theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.
