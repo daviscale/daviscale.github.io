@@ -1,3 +1,8 @@
+layout: post
+title: "Using Docker to Create and Run a React Development Environment"
+date: 2023-05-14 12:00:00 -0000
+categories: react docker
+
 ## Using Docker to Create and Run a React Development Environment
 
 As a software engineer, managing different versions of SDKs used to frustrate me. Each language has its own version management tool. Ruby has  `RVM` or `rbenv`, Python uses `pyenv` or `virtualenv`, Java has `SDKMAN`, and so on. Once I started using Docker, I realized that I no longer needed to manage language versions directly on my development workstation. I now strive to install all my development dependencies in docker containers.
