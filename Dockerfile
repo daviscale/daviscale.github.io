@@ -7,17 +7,12 @@ FROM ruby:2.7-alpine
 RUN apk update
 RUN apk add --no-cache build-base gcc cmake git
 
-WORKDIR /app
+WORKDIR /site
 COPY . .
 
 # Update the Ruby bundler and install Jekyll
 RUN gem update --system
 RUN gem update bundler && gem install bundler jekyll
 RUN bundle install
-
-# Run locally with
-# docker run -p 4000:4000 -it -v $(pwd):/app blog sh
-# and then in the container do:
-# bundle exec jekyll serve --host 0.0.0.0
 
 EXPOSE 4000
