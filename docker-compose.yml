@@ -1,0 +1,11 @@
+services:
+  site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/site # mount the current directory on the host system to /site on the container
+    ports:
+      - "4000:4000" # map port 4000 on the host to port 4000 on the container
+    command: bundle exec jekyll serve --livereload --host 0.0.0.0 # used for serving the site
+
